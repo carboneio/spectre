@@ -16,8 +16,8 @@
 }
 
 .form-autocomplete .form-autocomplete-input.is-focused {
-  border-color: #5755d9; 
-  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+  border-color: #73358b; 
+  box-shadow: 0 0 0 .1rem rgba(115, 53, 139, .2);
 }
 
 .form-autocomplete .form-autocomplete-input .form-input {
@@ -52,7 +52,7 @@
 
 .calendar {
   border: .05rem solid #dadee4;
-  border-radius: .1rem;
+  border-radius: 10px;
   display: block;
   min-width: 280px;
 }
@@ -60,8 +60,8 @@
 .calendar .calendar-nav {
   align-items: center;
   background: #f7f8f9;
-  border-top-left-radius: .1rem;
-  border-top-right-radius: .1rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -106,7 +106,6 @@
 
 .calendar .calendar-date .date-item {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: transparent;
   border: .05rem solid transparent;
@@ -128,26 +127,26 @@
 }
 
 .calendar .calendar-date .date-item.date-today {
-  border-color: #e5e5f9;
-  color: #5755d9;
+  border-color: #c698d8;
+  color: #73358b;
 }
 
 .calendar .calendar-date .date-item:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+  box-shadow: 0 0 0 .1rem rgba(115, 53, 139, .2);
 }
 
 .calendar .calendar-date .date-item:focus,
 .calendar .calendar-date .date-item:hover {
-  background: #fefeff;
-  border-color: #e5e5f9;
-  color: #5755d9;
+  background: #d2aee0;
+  border-color: #c698d8;
+  color: #73358b;
   text-decoration: none;
 }
 
 .calendar .calendar-date .date-item:active,
 .calendar .calendar-date .date-item.active {
-  background: #4b48d6;
-  border-color: #3634d2;
+  background: #6a3180;
+  border-color: #5b2a6d;
   color: #fff;
 }
 
@@ -179,7 +178,7 @@
 }
 
 .calendar .calendar-range::before {
-  background: #f1f1fc;
+  background: #cca3dc;
   content: "";
   height: 1.4rem;
   left: 0;
@@ -199,13 +198,13 @@
 
 .calendar .calendar-range.range-start .date-item,
 .calendar .calendar-range.range-end .date-item {
-  background: #4b48d6;
-  border-color: #3634d2;
+  background: #6a3180;
+  border-color: #5b2a6d;
   color: #fff;
 }
 
 .calendar .calendar-range .date-item {
-  color: #5755d9;
+  color: #73358b;
 }
 
 .calendar.calendar-lg .calendar-body {
@@ -261,7 +260,7 @@
 }
 
 .calendar.calendar-lg .calendar-event {
-  border-radius: .1rem;
+  border-radius: 10px;
   display: block;
   font-size: .7rem;
   margin: .1rem auto;
@@ -504,7 +503,6 @@
   padding: .2rem .4rem;
   position: absolute;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
@@ -536,7 +534,7 @@
 .filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for="tag-6"],
 .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"],
 .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] {
-  background: #5755d9;
+  background: #73358b;
   color: #fff;
 }
 
@@ -564,11 +562,10 @@
 
 .meter {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: #f7f8f9;
   border: 0;
-  border-radius: .1rem;
+  border-radius: 10px;
   display: block;
   height: .8rem; 
   width: 100%;
@@ -582,7 +579,7 @@
 .meter::-webkit-meter-optimum-value,
 .meter::-webkit-meter-suboptimum-value,
 .meter::-webkit-meter-even-less-good-value {
-  border-radius: .1rem;
+  border-radius: 10px;
 }
 
 .meter::-webkit-meter-bar {
@@ -605,7 +602,7 @@
 .meter:-moz-meter-optimum,
 .meter:-moz-meter-sub-optimum,
 .meter:-moz-meter-sub-sub-optimum {
-  border-radius: .1rem;
+  border-radius: 10px;
 }
 
 .meter:-moz-meter-optimum::-moz-meter-bar {
@@ -847,12 +844,11 @@
 
 .progress {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: #eef0f3;
   border: 0;
-  border-radius: .1rem;
-  color: #5755d9;
+  border-radius: 10px;
+  color: #73358b;
   height: .2rem;
   position: relative;
   width: 100%;
@@ -860,22 +856,22 @@
 
 .progress::-webkit-progress-bar {
   background: transparent;
-  border-radius: .1rem;
+  border-radius: 10px;
 }
 
 .progress::-webkit-progress-value {
-  background: #5755d9;
-  border-radius: .1rem;
+  background: #73358b;
+  border-radius: 10px;
 }
 
 .progress::-moz-progress-bar {
-  background: #5755d9;
-  border-radius: .1rem;
+  background: #73358b;
+  border-radius: 10px;
 }
 
 .progress:indeterminate {
   animation: progress-indeterminate 1.5s linear infinite;
-  background: #eef0f3 linear-gradient(to right, #5755d9 30%, #eef0f3 30%) top left/150% 150% no-repeat;
+  background: #eef0f3 linear-gradient(to right, #73358b 30%, #eef0f3 30%) top left/150% 150% no-repeat;
 }
 
 .progress:indeterminate::-moz-progress-bar {
@@ -893,7 +889,6 @@
 
 .slider {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: transparent;
   display: block;
@@ -902,7 +897,7 @@
 }
 
 .slider:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+  box-shadow: 0 0 0 .1rem rgba(115, 53, 139, .2);
   outline: none;
 }
 
@@ -912,7 +907,7 @@
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background: #5755d9;
+  background: #73358b;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -923,7 +918,7 @@
 }
 
 .slider::-moz-range-thumb {
-  background: #5755d9;
+  background: #73358b;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -933,7 +928,7 @@
 }
 
 .slider::-ms-thumb {
-  background: #5755d9;
+  background: #73358b;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -974,27 +969,27 @@
 
 .slider::-webkit-slider-runnable-track {
   background: #eef0f3;
-  border-radius: .1rem;
+  border-radius: 10px;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-moz-range-track {
   background: #eef0f3;
-  border-radius: .1rem;
+  border-radius: 10px;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-track {
   background: #eef0f3;
-  border-radius: .1rem;
+  border-radius: 10px;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-fill-lower {
-  background: #5755d9;
+  background: #73358b;
 }
 
 .timeline .timeline-item {
@@ -1040,7 +1035,7 @@
 }
 
 .timeline .timeline-item .timeline-icon::before {
-  border: .1rem solid #5755d9;
+  border: .1rem solid #73358b;
   border-radius: 50%;
   content: "";
   display: block;
@@ -1052,7 +1047,7 @@
 }
 
 .timeline .timeline-item .timeline-icon.icon-lg {
-  background: #5755d9;
+  background: #73358b;
   line-height: 1.2rem;
 }
 
