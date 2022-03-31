@@ -10,7 +10,7 @@
     "url": "https://github.com/picturepan2/spectre.git"
   },
   "scripts": {
-    "build": "./node_modules/gulp/bin/gulp.js build"
+    "build-css": "./node_modules/gulp/bin/gulp.js build"
   },
   "files": [
     "dist/spectre.css",
